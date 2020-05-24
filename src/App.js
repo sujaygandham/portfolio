@@ -43,11 +43,12 @@ function App() {
               <Text fontSize={{ xs:"md", md: "xl"}}>
                 A Software Engineer at{" "}
                 <Link
-                  color="secondary.300"
+                  color="secondary.500"
                   href="https://blueyonder.com/"
+                  fontWeight={600}
                   isExternal
                 >
-                  Blue Yonder
+                  BlueYonder
                 </Link>
                 , who has a deep interest towards web development, design & user
                 experience based in{" "}
