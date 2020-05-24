@@ -1,7 +1,6 @@
 import { Box, CSSReset, Link, Stack, Text, ThemeProvider } from "@chakra-ui/core";
 import React from "react";
 import { FaLinkedinIn, FaMediumM } from "react-icons/fa";
-import "./App.css";
 import SocialButton from "./components/molecules/SocialButton";
 import Navbar from "./components/Navbar";
 import spotlightNoLampLogo from "./spotlight-no-lamp.svg";
