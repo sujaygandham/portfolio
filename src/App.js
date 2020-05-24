@@ -25,22 +25,22 @@ function App() {
           height="80vh"
         >
           <Box
-            p={[8, 16, 80]}
+            p={[8, 10, 80]}
             color="primary.500"
             bgImage={`url(${spotlightNoLampLogo})`}
             bgPos="bottom 0px right 0px"
             bgSize={["100%", "100%", "80%", "80%", "0%"]}
             bgRepeat="no-repeat"
-            height={[600, 760, 760, 700, 700]}
+            height={[520, 660, 760, 670, 650]}
           >
-            <Text fontSize={{ xs:"2xl", sm: "4xl", lg: "6xl"}} fontWeight={600}>
+            <Text fontSize={{ xs:"xl", sm: "4xl", lg: "5xl"}} fontWeight={600}>
               Builds warm and fuzzy UIs
             </Text>
-            <Text fontSize={{ xs:"xl", md: "2xl"}} fontWeight={500}>
+            <Text fontSize={{ xs:"md", md: "2xl"}} fontWeight={500}>
               as a Frontend Engineer + UI Designer
             </Text>
             <Box py={10} maxW={600} lineHeight="1.8">
-              <Text fontSize={{ xs:"lg", md: "xl"}}>
+              <Text fontSize={{ xs:"md", md: "xl"}}>
                 A Software Engineer at{" "}
                 <Link
                   color="secondary.300"
@@ -49,7 +49,7 @@ function App() {
                 >
                   Blue Yonder
                 </Link>
-                , who has deep interest towards web development, design & user
+                , who has a deep interest towards web development, design & user
                 experience based in{" "}
                 <Text as="span" fontWeight={600}>
                   Texas
