@@ -14,10 +14,7 @@ function App() {
       <Box className="App">
         <Navbar />
         <Box
-          bgImage={{
-            lg: `url(${spotlightNoLampLogo})`,
-            xl: `url(${spotlightLogo})`,
-          }}
+          bgImage={{xl: `url(${spotlightLogo})`}}
           bgPos="top 2px right 0px"
           bgSize={["0%", "0%", "0%", "0%", "60%"]}
           bgRepeat="no-repeat"

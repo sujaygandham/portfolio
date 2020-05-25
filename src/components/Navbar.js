@@ -1,4 +1,4 @@
-import { Box, Flex, Text } from "@chakra-ui/core";
+import { Box, Flex, Image, Text } from "@chakra-ui/core";
 import React from "react";
 import logo from "../portfolio-logo.svg";
 
@@ -23,7 +23,7 @@ const Navbar = () => {
       boxShadow="sm"
     >
       <Box>
-        <img src={logo} alt="SUJAY GANDHAM" style={{ height: 48 }} />
+        <Image src={logo} alt="SUJAY GANDHAM" height={12} />
       </Box>
       <Box display={{ sm: "block", md: "none" }} onClick={handleToggle}>
         <svg
