@@ -1,7 +1,7 @@
 import React from "react";
 import { useSpring, animated } from 'react-spring'
 
-const interp = i => r => `translate3d(0, ${15 * Math.sin(r + (i * 2 * Math.PI) / 1.6)}px, 0)`
+const interp = i => r => `translate3d(0, ${8 * Math.sin(r + (i * 2 * Math.PI) / 1.6)}px, 0)`
 
 const Spotlight = () => {
   const { radians } = useSpring({
