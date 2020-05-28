@@ -1,12 +1,15 @@
 import { theme } from "@chakra-ui/core";
 
-// Let's say you want to add custom colors
 const designTheme = {
   ...theme,
   fonts: {
     heading: '"Hind Vadodara", sans-serif',
     body: "Hind Vadodara, system-ui, sans-serif",
     mono: "Hind Vadodara, Menlo, monospace",
+  },
+  fontSizes: {
+    ...theme.fontSizes,
+    "5xl": "2.75rem"
   },
   colors: {
     ...theme.colors,
@@ -47,6 +50,9 @@ const designTheme = {
       200: "#d1691c",
       100: "#d67935"
     },
+    background: {
+      light: "#fcfcfc"
+    }
   },
 };
 

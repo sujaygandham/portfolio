@@ -21,7 +21,7 @@ const SocialButton = ({ icon, label, externalLink, ...rest }) => (
 );
 
 SocialButton.propTypes = {
-  imageUrl: Proptypes.string.isRequired,
+  icon: Proptypes.func.isRequired,
   label: Proptypes.string.isRequired,
   externalLink: Proptypes.string,
 };
