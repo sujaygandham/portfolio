@@ -17,7 +17,7 @@ const Spotlight = () => {
     <svg
       width="864"
       height="614.4"
-      viewBox="0 -3 1440 1024"
+      viewBox="0 0 1440 1024"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >

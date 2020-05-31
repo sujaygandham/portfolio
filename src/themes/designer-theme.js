@@ -52,6 +52,9 @@ const designTheme = {
     },
     background: {
       light: "#fcfcfc"
+    },
+    text: {
+      black: '#070606'
     }
   },
 };

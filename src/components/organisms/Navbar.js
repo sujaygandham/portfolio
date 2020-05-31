@@ -1,6 +1,6 @@
 import { Box, Flex, Image, Text } from "@chakra-ui/core";
 import React from "react";
-import logo from "../portfolio-logo.svg";
+import logo from "../../portfolio-logo.svg";
 
 const MenuItems = ({ children }) => (
   <Text mt={{ base: 4, md: 0 }} mr={6} display="block">
@@ -21,6 +21,7 @@ const Navbar = () => {
       padding="1.5rem"
       color="primary.300"
       boxShadow="sm"
+      backgroundColor="background.light"
     >
       <Box>
         <Image src={logo} alt="SUJAY GANDHAM" height={12} />
